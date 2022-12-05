@@ -4,8 +4,7 @@
   --middle-blue: #7dbbc3ff;
   --gainsboro: #DEE2E6;
   --cadet-blue-crayola: #ADB5BD;
-  --cyclamen: #e87ea1ff;
-  --orchid-pink: #f2bac9ff;
+  --border-radius: 12px;
 }
 
 /* General styles */
@@ -51,6 +50,7 @@ form {
 
 input {
   flex-grow: 1;
+  border-radius: var(--border-radius);
 }
 
 .user {
@@ -75,6 +75,8 @@ img {
 
 button {
   background-color: var(--middle-blue);
+  width: 80px;
+  border-radius: var(--border-radius);
 }
 
 /*Sidebar*/
@@ -94,7 +96,11 @@ nav ul {
   padding: 0;
 }
 
-.menu {}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
 
 /*Main content*/
 
@@ -146,7 +152,7 @@ main {
 
 .project {
   background-color: var(--cadet-blue-crayola);
-  border-radius: 5%;
+  border-radius: var(--border-radius);
   padding: 25px;
 }
 
@@ -165,7 +171,7 @@ main {
   background-color: var(--cadet-blue-crayola);
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  border-radius: 5%;
+  border-radius: var(--border-radius);
 }
 
 .wrap-notice {
@@ -175,7 +181,7 @@ main {
 
 h3 {
   font-weight: bolder;
-  padding-bottom: 5%;
+  padding-bottom: 5px;
 }
 
 .notice-text {
@@ -192,7 +198,7 @@ h3 {
 .trends {
   background-color: var(--cadet-blue-crayola);
   display: grid;
-  border-radius: 5%;
+  border-radius: var(--border-radius);
 }
 
 .trend-projects {
