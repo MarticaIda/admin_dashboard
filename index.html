@@ -15,11 +15,13 @@
       </form>
       <section class="user">
         <div id="notification"><img src="icons/bell.png" alt="bell" /></div>
-        <img class="icon" src="icons/cat large.png" />
-        <p class="username">Maria Martinkous</p>
+        <a href="https://github.com/MarticaIda" class="user-github">
+          <img class="icon" src="avatarGitHub.jpeg" />
+          <p class="username">Maria Martinkous</p></a
+        >
       </section>
       <section class="user-large">
-        <img class="icon-large" src="icons/cat large.png" />
+        <img class="icon-large" src="avatarGitHub.jpeg" />
         <div>
           <p class="username-large">Hi there,</p>
           <p>Maria Martinkous</p>
@@ -98,15 +100,25 @@
     </nav>
     <section class="main-content">
       <main>
-        <h2>Your Projects</h2>
+        <h2>The Odin Projects</h2>
         <section class="wrap-projects">
           <article class="project">
-            <h3 class="project-name">Super Cool Project</h3>
+            <div class="wrap-demo">
+              <a href="https://github.com/MarticaIda/Sign_up_form">
+                <h3>Sign-up Form</h3>
+                <p>(github repo)</p></a
+              >
+              <a href="https://marticaida.github.io/Sign_up_form/" class="page">
+              </a>
+            </div>
+            <img src="pages/SignUpForm.png" alt="SignUpForm" />
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non et
-              cum cupiditate perferendis quasi fuga vel ut, nihil corrupti dolor
-              rem suscipit officiis velit dicta?
+              This is a sign up form with JavaScript password validation.
             </p>
+            <a
+              href="https://www.theodinproject.com/lessons/znode-path-intermediate-html-and-css-sign-up-form"
+              >Project requirements</a
+            >
             <div class="stats">
               <a href="#" class="icon-stats"
                 ><img src="icons/eye.png" alt="views"
@@ -120,11 +132,73 @@
             </div>
           </article>
           <article class="project">
-            <h3 class="project-name">Less Cool Project</h3>
+            <div class="wrap-demo">
+              <a href="https://github.com/MarticaIda/calculator">
+                <h3>Calculator</h3>
+                <p>(github repo)</p></a
+              >
+              <a
+                href="https://marticaida.github.io/calculator/"
+                class="page"
+              ></a>
+            </div>
+            <img src="pages/Calculator.png" alt="Calculator" />
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
-              recusandae in impedit mollitia quibusdam. Nisi?
+              This project involved building a basic functions calculator
+              <span class="open-modal">Read more...</span>
             </p>
+            <div class="modal">
+              <div class="modal-content">
+                <!-- possibly change span to p -->
+                <img src="icons/close.png" alt="Close" class="close" />
+                <h3>
+                  The finished project satisfies all basic, additional and bonus
+                  requirements:
+                </h3>
+                <ul class="brag">
+                  <li>
+                    It performs the basic four operations, and behaves as a
+                    Windows or Android calculator (mostly).
+                  </li>
+                  <li>
+                    It takes the result of a previous operation to act as a
+                    first operand in the next operation.
+                  </li>
+                  <li>
+                    It continues calculations when the user presses operator
+                    button bypassing equal button.
+                  </li>
+                  <li>It can repeatedly perform an operation.</li>
+                  <li>It reverses negativity / positivity.</li>
+                  <li>It operates with floating point numbers.</li>
+                  <li>
+                    It handles large (or long) numbers as well as a regular
+                    windows calculator.
+                  </li>
+                  <li>
+                    It erases the last entered digit (backspace function).
+                  </li>
+                  <li>
+                    It clears the display and all the variable for a new
+                    operation.
+                  </li>
+                  <li>
+                    It warns the user about impossibility of dividing by 0, then
+                    a new operation can be performed.
+                  </li>
+                  <li>
+                    It has full keyboard support (except positivity/negativity
+                    of numbers, which Windows calculator doesn't have either for
+                    keyboard).
+                  </li>
+                  <li>It displays the result with place value commas.</li>
+                </ul>
+              </div>
+            </div>
+            <a
+              href="https://www.theodinproject.com/lessons/foundations-calculator"
+              >Project requirements
+            </a>
             <div class="stats">
               <a href="#" class="icon-stats"
                 ><img src="icons/eye.png" alt="views"
@@ -138,11 +212,26 @@
             </div>
           </article>
           <article class="project">
-            <h3 class="project-name">Impossible App</h3>
+            <div class="wrap-demo">
+              <a href="https://github.com/MarticaIda/Etch-a-sketch">
+                <h3>Etch-a-Sketch</h3>
+                <p>(github repo)</p></a
+              >
+              <a
+                href="https://marticaida.github.io/Etch-a-sketch/"
+                class="page"
+              >
+              </a>
+            </div>
+            <img src="pages/EtchASketch.png" alt="Etch-a-Sketch" />
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-              ipsa ducimus culpa quos ratione at!
+              This browser version of Etch-a-Sketch was aimed at testing basic
+              DOM manipulation skills.
             </p>
+            <a
+              href="https://www.theodinproject.com/lessons/foundations-etch-a-sketch"
+              >Project requirements</a
+            >
             <div class="stats">
               <a href="#" class="icon-stats"
                 ><img src="icons/eye.png" alt="views"
@@ -156,12 +245,26 @@
             </div>
           </article>
           <article class="project">
-            <h3 class="project-name">Easy Peasy App</h3>
+            <div class="wrap-demo">
+              <a href="https://github.com/MarticaIda/RockPaperScissors">
+                <h3>Rock Paper Scissors</h3>
+                <p>(github repo)</p>
+              </a>
+              <a
+                href="https://marticaida.github.io/RockPaperScissors/"
+                class="page"
+              >
+              </a>
+            </div>
+            <img src="pages/RockPaperScissors.png" alt="RockPaperScissors" />
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              voluptas cumque natus aliquam accusantium facilis rerum quia
-              adipisci maxime voluptatem.
+              A simple implementation of Rock Paper Scissors game. This project
+              was aimed at implementing basic JavaScript skills.
             </p>
+            <a
+              href="https://www.theodinproject.com/lessons/foundations-rock-paper-scissors"
+              >Project requirements</a
+            >
             <div class="stats">
               <a href="#" class="icon-stats"
                 ><img src="icons/eye.png" alt="views"
@@ -175,29 +278,54 @@
             </div>
           </article>
           <article class="project">
-            <h3 class="project-name">Ad Blocker</h3>
+            <div class="wrap-demo">
+              <a href="https://github.com/MarticaIda/landing-page">
+                <h3>Landing Page</h3>
+                <p>(github repo)</p>
+              </a>
+              <a href="https://marticaida.github.io/landing-page/" class="page">
+              </a>
+            </div>
+            <img src="pages/LandingPage.png" alt="LandingPage" />
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-              placeat?
+              The goal of this project was to create an entire webpage with a
+              provided design and employ beginner CSS skills.
             </p>
+            <a
+              href="https://www.theodinproject.com/lessons/foundations-landing-page"
+              >Project requirements</a
+            >
             <div class="stats">
+              <a href="#" class="icon-stats">
+                <img src="icons/eye.png" alt="views" />
+              </a>
               <a href="#" class="icon-stats"
-                ><img src="icons/eye.png" alt="views"
-              /></a>
+                ><img src="icons/heart.png" alt="likes" />
+              </a>
               <a href="#" class="icon-stats"
-                ><img src="icons/heart.png" alt="likes"
-              /></a>
-              <a href="#" class="icon-stats"
-                ><img src="icons/share.png" alt="share"
-              /></a>
+                ><img src="icons/share.png" alt="share" />
+              </a>
             </div>
           </article>
           <article class="project">
-            <h3 class="project-name">Money Maker</h3>
+            <div class="wrap-demo">
+              <a href="https://github.com/MarticaIda/odin-recipes">
+                <h3>Odin Recipes</h3>
+                <p>(github repo)</p>
+              </a>
+              <a href="https://marticaida.github.io/odin-recipes/" class="page">
+              </a>
+            </div>
+            <img src="pages/Recepies.png" alt="Recepies" />
+
             <p class="text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Voluptatibus, sunt.
+              This project was intended to practice basic HTML skills. It
+              involved creating a collection of recipes in the form of a
+              website.
             </p>
+            <a href="https://www.theodinproject.com/lessons/foundations-recipes"
+              >Project requirements</a
+            >
             <div class="stats">
               <a href="#" class="icon-stats"
                 ><img src="icons/eye.png" alt="views"
@@ -274,5 +402,6 @@
         </section>
       </aside>
     </section>
+    <script src="script.js" defer></script>
   </body>
 </html>
