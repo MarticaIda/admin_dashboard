@@ -23,7 +23,7 @@
 
 body {
   display: grid;
-  grid-template-columns: minmax(200px, 10%) minmax(min-content, 90%);
+  grid-template-columns: minmax(200px, 1fr) minmax(min-content, 9fr);
   grid-template-rows: 1fr 5fr;
   grid-template-areas:
     "nav head"
@@ -210,21 +210,21 @@ main {
   background-color: var(--bc-main);
   border-left: 1rem solid var(--bc-header);
   border-radius: var(--border-radius);
+  box-shadow: 5px 5px 12px var(--bc-header);
 }
 
 .wrap-demo {
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
 }
 
 h3 {
   color: #000;
-  font-size: 1.25rem;
+  font-size: larger;
   font-weight: bolder;
 }
 
 .brackets {
-  font-size: 1rem;
+  font-size: smaller;
 }
 
 .page {
@@ -294,7 +294,7 @@ h3 {
 }
 
 .modal-content h3 {
-  padding-bottom: 1rem;
+  padding-bottom: var(--padding);
 }
 
 .project a {
@@ -357,6 +357,7 @@ h3 {
   background-color: var(--bc-main);
   border-radius: var(--border-radius);
   border-left: 1rem solid var(--bc-nav);
+  box-shadow: 5px 5px 12px var(--bc-nav);
 }
 
 .divider {
@@ -402,6 +403,7 @@ h3 {
   background-color: var(--bc-main);
   border-left: 1rem solid var(--bc-nav);
   border-radius: var(--border-radius);
+  box-shadow: 5px 5px 12px var(--bc-nav);
 }
 
 .trend-projects {
