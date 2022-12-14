@@ -1,0 +1,24 @@
+{
+  "name": "admin_dashboard",
+  "version": "1.0.0",
+  "description": "This project was designed to improve the mastery of CSS grid layout. A few of the elements were styled with display: flex property.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarticaIda/admin_dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarticaIda/admin_dashboard/issues"
+  },
+  "homepage": "https://github.com/MarticaIda/admin_dashboard#readme",
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "prettier": "^2.8.1"
+  }
+}
