@@ -116,10 +116,10 @@ input {
 }
 
 .button-wrapper {
-  justify-self: end;
-  display: flex;
-  gap: 3rem;
-  justify-content: space-around;
+  justify-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: end;
 }
 
 button {
